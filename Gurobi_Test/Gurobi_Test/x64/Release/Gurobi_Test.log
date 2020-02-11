@@ -1,0 +1,31 @@
+﻿Build started 2018-11-07 오전 9:11:27.
+     1>Project "D:\Implementation\Gurobi_Test\Gurobi_Test\Gurobi_Test.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Implementation\Gurobi_Test\x64\Release\Gurobi_Test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\gurobi801\win64\lib gurobi_c++md2015.lib gurobi80.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Implementation\Gurobi_Test\x64\Release\Gurobi_Test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Implementation\Gurobi_Test\x64\Release\Gurobi_Test.lib" /MACHINE:X64 x64\Release\SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(Env.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(Exception.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(QuadExpr.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(LinExpr.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(Var.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(TempConstr.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(Model.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(Constr.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(SOS.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(QConstr.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(GenConstr.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(Callback.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(Column.2015.omd) : error LNK2038: mismatch detected for '_MSC_VER': value '1900' doesn't match value '1800' in SAT_4con_p.obj
+     1>gurobi_c++md2015.lib(QuadExpr.2015.omd) : error LNK2001: unresolved external symbol __std_terminate
+     1>gurobi_c++md2015.lib(LinExpr.2015.omd) : error LNK2001: unresolved external symbol __std_terminate
+     1>gurobi_c++md2015.lib(SOS.2015.omd) : error LNK2001: unresolved external symbol __std_terminate
+     1>gurobi_c++md2015.lib(Model.2015.omd) : error LNK2001: unresolved external symbol "void __cdecl `eh vector constructor iterator'(void *,unsigned __int64,unsigned __int64,void (__cdecl*)(void *),void (__cdecl*)(void *))" (??_L@YAXPEAX_K1P6AX0@Z2@Z)
+     1>gurobi_c++md2015.lib(Model.2015.omd) : error LNK2001: unresolved external symbol "void __cdecl `eh vector destructor iterator'(void *,unsigned __int64,unsigned __int64,void (__cdecl*)(void *))" (??_M@YAXPEAX_K1P6AX0@Z@Z)
+     1>gurobi_c++md2015.lib(Model.2015.omd) : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned __int64)" (??3@YAXPEAX_K@Z)
+     1>gurobi_c++md2015.lib(Callback.2015.omd) : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned __int64)" (??3@YAXPEAX_K@Z)
+     1>gurobi_c++md2015.lib(Model.2015.omd) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *,unsigned __int64)" (??_V@YAXPEAX_K@Z)
+     1>D:\Implementation\Gurobi_Test\x64\Release\Gurobi_Test.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "D:\Implementation\Gurobi_Test\Gurobi_Test\Gurobi_Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.54
